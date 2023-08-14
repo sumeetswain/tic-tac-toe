@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d1d0ce;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  grid-gap: 2rem;
+  margin-top: 25vh;
+}
+
+input {
+  height: 100px;
+  width: 100px;
+}
